@@ -6,7 +6,7 @@ package com.tests.automation.qa;
 
 import java.util.Scanner;
 
-public class Task_1 {
+public class Holubenko_Viacheslav_Task_1 {
     public static void main(String[] args) {
 
         try {

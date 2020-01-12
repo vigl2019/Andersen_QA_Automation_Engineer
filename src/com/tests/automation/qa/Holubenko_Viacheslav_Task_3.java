@@ -4,7 +4,7 @@ package com.tests.automation.qa;
 3.	Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
  */
 
-public class Task_3 {
+public class Holubenko_Viacheslav_Task_3 {
     public static void main(String[] args) {
 
         int[] arrNumbers = {5, 1, 55, 108, 115, 235, 9, 12, 38, 15};
