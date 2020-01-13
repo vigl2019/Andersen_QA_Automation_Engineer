@@ -9,8 +9,9 @@ import java.util.Scanner;
 public class Holubenko_Viacheslav_Task_1 {
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
         try {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Введите целое число: ");
 
             if (scanner.hasNextInt()) {
@@ -20,9 +21,10 @@ public class Holubenko_Viacheslav_Task_1 {
             } else {
                 System.out.println("Вы ввели не целое число!");
             }
-            scanner.close();
         } catch (Exception ex) {
             ex.printStackTrace();
+        } finally {
+            scanner.close();
         }
     }
 }
