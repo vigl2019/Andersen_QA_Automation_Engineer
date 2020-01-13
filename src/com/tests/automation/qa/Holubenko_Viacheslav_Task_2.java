@@ -18,7 +18,7 @@ public class Holubenko_Viacheslav_Task_2 {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String name = reader.readLine();
 
-            if (name.toUpperCase().equals("ВЯЧЕСЛАВ")) {
+            if (name.trim().toUpperCase().equals("ВЯЧЕСЛАВ")) {
                 System.out.println("Привет, Вячеслав");
             } else {
                 System.out.println("Нет такого имени");
